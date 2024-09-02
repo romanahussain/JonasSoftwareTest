@@ -1,0 +1,7 @@
+*/obj/
+/.vs/JonasCodingTest/v15/.suo
+/.vs/JonasCodingTest/v15/
+*/bin/
+/packages/
+/WebApi/Web.Debug.*
+/WebApi/Web.Release.config

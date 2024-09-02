@@ -1,0 +1,48 @@
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .order-table th, .order-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .order-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .order-table td {
+    background-color: #fff;
+  }
+  
+  .order-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .order-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .order-table s {
+    color: red;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+th, td {
+    border: 1px solid #000; 
+    padding: 8px;
+    text-align: center;
+}
+
+thead {
+    background-color: #f2f2f2; 
+}
+
+tr:hover {
+    background-color: #f5f5f5; 
+}

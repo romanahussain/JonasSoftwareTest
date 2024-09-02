@@ -1,0 +1,174 @@
+2024-09-02 07:09:35.3277 INFO CompanyController instantiated. 
+2024-09-02 07:09:35.3957 INFO GetAll method called. 
+2024-09-02 07:09:35.4492 INFO GetAll method executed successfully. 
+2024-09-02 07:10:01.8222 INFO CompanyController instantiated. 
+2024-09-02 07:10:01.9142 INFO Post method called. 
+2024-09-02 07:10:01.9572 INFO Company added successfully. 
+2024-09-02 07:10:05.3592 INFO CompanyController instantiated. 
+2024-09-02 07:10:05.3592 INFO GetAll method called. 
+2024-09-02 07:10:05.3871 INFO GetAll method executed successfully. 
+2024-09-02 16:56:55.3317 INFO CompanyController instantiated. 
+2024-09-02 16:56:55.3981 INFO GetAll method called. 
+2024-09-02 16:56:55.4551 INFO GetAll method executed successfully. 
+2024-09-02 16:57:00.6515 INFO CompanyController instantiated. 
+2024-09-02 16:57:00.7676 INFO Post method called. 
+2024-09-02 16:57:00.8195 INFO Company added successfully. 
+2024-09-02 16:57:12.2765 INFO CompanyController instantiated. 
+2024-09-02 16:57:12.2765 INFO Post method called. 
+2024-09-02 16:57:12.3189 INFO Company added successfully. 
+2024-09-02 16:57:15.6290 INFO CompanyController instantiated. 
+2024-09-02 16:57:15.6290 INFO GetAll method called. 
+2024-09-02 16:57:15.6686 INFO GetAll method executed successfully. 
+2024-09-02 16:57:40.6626 INFO CompanyController instantiated. 
+2024-09-02 16:57:40.6626 INFO Post method called. 
+2024-09-02 16:57:40.7088 INFO Company added successfully. 
+2024-09-02 16:57:44.9701 INFO CompanyController instantiated. 
+2024-09-02 16:57:44.9701 INFO GetAll method called. 
+2024-09-02 16:57:45.0051 INFO GetAll method executed successfully. 
+2024-09-02 16:57:50.6288 INFO CompanyController instantiated. 
+2024-09-02 16:57:50.6587 INFO Get method called with companyCode: 7 
+2024-09-02 16:57:50.6903 INFO Get method executed successfully for companyCode: 7 
+2024-09-02 17:03:56.6091 INFO CompanyController instantiated. 
+2024-09-02 17:03:56.7120 INFO Get method called with companyCode: 7 
+2024-09-02 17:03:56.7120 WARN Company with code 7 not found. 
+2024-09-02 17:04:01.5456 INFO CompanyController instantiated. 
+2024-09-02 17:04:01.7438 INFO Post method called. 
+2024-09-02 17:04:01.8220 INFO Company added successfully. 
+2024-09-02 17:04:06.3056 INFO CompanyController instantiated. 
+2024-09-02 17:04:06.3056 INFO Get method called with companyCode: 7 
+2024-09-02 17:04:06.3461 INFO Get method executed successfully for companyCode: 7 
+2024-09-02 17:04:14.6654 INFO CompanyController instantiated. 
+2024-09-02 17:04:14.6654 INFO Post method called. 
+2024-09-02 17:04:14.7087 WARN Failed to add the company. 
+2024-09-02 17:05:13.4474 INFO CompanyController instantiated. 
+2024-09-02 17:05:13.4474 INFO Post method called. 
+2024-09-02 17:05:13.4794 WARN Failed to add the company. 
+2024-09-02 17:05:42.7565 INFO CompanyController instantiated. 
+2024-09-02 17:05:42.7565 INFO Post method called. 
+2024-09-02 17:06:24.7699 WARN Failed to add the company. 
+2024-09-02 17:06:28.8014 INFO CompanyController instantiated. 
+2024-09-02 17:06:28.8014 INFO Post method called. 
+2024-09-02 17:07:36.7392 WARN Failed to add the company. 
+2024-09-02 17:07:53.3667 INFO CompanyController instantiated. 
+2024-09-02 17:07:56.7418 INFO Post method called. 
+2024-09-02 17:09:18.2936 WARN Failed to add the company. 
+2024-09-02 17:09:20.9123 INFO CompanyController instantiated. 
+2024-09-02 17:09:20.9123 INFO Post method called. 
+2024-09-02 17:17:31.4464 INFO CompanyController instantiated. 
+2024-09-02 17:17:31.7112 INFO Post method called. 
+2024-09-02 17:17:40.5323 INFO Company added successfully. 
+2024-09-02 17:17:43.8561 INFO CompanyController instantiated. 
+2024-09-02 17:17:43.8561 INFO Post method called. 
+2024-09-02 17:17:43.8736 WARN Company with SiteId Global123 and CompanyCode 7 already exists. 
+2024-09-02 17:17:50.7932 INFO CompanyController instantiated. 
+2024-09-02 17:17:50.8072 INFO Put method called with companyCode: 6 
+2024-09-02 17:17:50.8072 WARN Update request contains SiteId, which is not allowed. 
+2024-09-02 17:17:57.9102 INFO CompanyController instantiated. 
+2024-09-02 17:17:57.9102 INFO Put method called with companyCode: 6 
+2024-09-02 17:17:57.9102 WARN Company with code 6 not found. 
+2024-09-02 17:19:30.8229 INFO CompanyController instantiated. 
+2024-09-02 17:19:30.8859 INFO GetAll method called. 
+2024-09-02 17:19:30.9461 INFO GetAll method executed successfully. 
+2024-09-02 17:19:34.1588 INFO CompanyController instantiated. 
+2024-09-02 17:19:34.2665 INFO Post method called. 
+2024-09-02 17:19:34.3286 INFO Company added successfully. 
+2024-09-02 17:19:39.3394 INFO CompanyController instantiated. 
+2024-09-02 17:19:39.3609 INFO Get method called with companyCode: 7 
+2024-09-02 17:19:39.3897 INFO Get method executed successfully for companyCode: 7 
+2024-09-02 17:19:43.7738 INFO CompanyController instantiated. 
+2024-09-02 17:19:43.7738 INFO GetAll method called. 
+2024-09-02 17:19:43.8212 INFO GetAll method executed successfully. 
+2024-09-02 17:19:47.3476 INFO CompanyController instantiated. 
+2024-09-02 17:19:47.3476 INFO Put method called with companyCode: 6 
+2024-09-02 17:19:47.3476 WARN Company with code 6 not found. 
+2024-09-02 17:19:52.5543 INFO CompanyController instantiated. 
+2024-09-02 17:19:52.5543 INFO Put method called with companyCode: 7 
+2024-09-02 17:19:52.6010 INFO Company with code 7 updated successfully. 
+2024-09-02 17:20:02.2751 INFO CompanyController instantiated. 
+2024-09-02 17:20:02.2751 INFO GetAll method called. 
+2024-09-02 17:20:02.3156 INFO GetAll method executed successfully. 
+2024-09-02 17:20:06.4336 INFO CompanyController instantiated. 
+2024-09-02 17:20:06.4336 INFO Get method called with companyCode: 7 
+2024-09-02 17:20:06.4605 INFO Get method executed successfully for companyCode: 7 
+2024-09-02 17:21:48.1766 INFO CompanyController instantiated. 
+2024-09-02 17:21:48.2333 INFO GetAll method called. 
+2024-09-02 17:21:48.2830 INFO GetAll method executed successfully. 
+2024-09-02 17:21:52.6494 INFO CompanyController instantiated. 
+2024-09-02 17:21:52.7401 INFO Post method called. 
+2024-09-02 17:21:52.7991 INFO Company added successfully. 
+2024-09-02 17:21:56.7726 INFO CompanyController instantiated. 
+2024-09-02 17:21:56.7960 INFO Put method called with companyCode: 7 
+2024-09-02 17:21:56.8103 WARN Update request contains CompanyCode, which is not allowed. 
+2024-09-02 17:22:01.4276 INFO CompanyController instantiated. 
+2024-09-02 17:22:01.4276 INFO Put method called with companyCode: 7 
+2024-09-02 17:22:01.4794 INFO Company with code 7 updated successfully. 
+2024-09-02 17:22:07.5851 INFO CompanyController instantiated. 
+2024-09-02 17:22:07.5851 INFO Get method called with companyCode: 7 
+2024-09-02 17:22:07.6218 INFO Get method executed successfully for companyCode: 7 
+2024-09-02 17:22:12.7832 INFO Adding new employee: "John Doe" 
+2024-09-02 17:22:12.8245 INFO Successfully added employee: "John Doe" 
+2024-09-02 17:22:17.9120 INFO Fetching employee with code: "E12345" 
+2024-09-02 17:22:17.9388 INFO Fetched employee with code: "E12345" 
+2024-09-02 17:22:27.2825 INFO Updating employee with code: "E12345" 
+2024-09-02 17:22:27.3453 INFO Successfully updated employee with code: "E12345" 
+2024-09-02 17:22:32.0088 INFO Updating employee with code: "E12345" 
+2024-09-02 17:22:32.0738 INFO Successfully updated employee with code: "E12345" 
+2024-09-02 17:22:36.8669 INFO Fetching employee with code: "E12345" 
+2024-09-02 17:22:36.8998 INFO Fetched employee with code: "E12345" 
+2024-09-02 17:23:57.8412 INFO Fetching employee with code: "E12345" 
+2024-09-02 17:23:57.8814 WARN Employee with code "E12345" not found. 
+2024-09-02 17:24:01.0174 INFO Adding new employee: "John Doe" 
+2024-09-02 17:24:01.0893 INFO Successfully added employee: "John Doe" 
+2024-09-02 17:24:02.1273 INFO Adding new employee: "John Doe" 
+2024-09-02 17:24:02.1619 INFO Successfully added employee: "John Doe" 
+2024-09-02 17:25:14.9392 INFO Adding new employee: "John Doe" 
+2024-09-02 17:25:15.0340 INFO Successfully added employee: "John Doe" 
+2024-09-02 17:25:16.8939 WARN Employee with code "E12345" already exists. 
+2024-09-02 17:25:26.6460 INFO Updating employee with code: "E12345" 
+2024-09-02 17:25:26.6605 WARN Update request contains Employee Code, which is not allowed. 
+2024-09-02 17:25:31.5139 INFO Updating employee with code: "E12345" 
+2024-09-02 17:25:31.5699 INFO Successfully updated employee with code: "E12345" 
+2024-09-02 17:25:35.4376 INFO Fetching all employees. 
+2024-09-02 17:25:35.4840 INFO Fetched 1 employees. 
+2024-09-02 17:25:49.2183 INFO Fetching employee with code: "E12345" 
+2024-09-02 17:25:49.2506 INFO Fetched employee with code: "E12345" 
+2024-09-02 17:25:53.6644 INFO Deleting employee with code: "E12345" 
+2024-09-02 17:25:53.6855 INFO Successfully deleted employee with code: "E12345" 
+2024-09-02 17:25:58.5895 INFO Updating employee with code: "E12345" 
+2024-09-02 17:25:58.5895 WARN Employee with code "E12345" not found for update. 
+2024-09-02 17:26:04.1561 INFO Fetching employee with code: "E12345" 
+2024-09-02 17:26:04.1561 WARN Employee with code "E12345" not found. 
+2024-09-02 17:26:04.5716 INFO Fetching employee with code: "E12345" 
+2024-09-02 17:26:04.5716 WARN Employee with code "E12345" not found. 
+2024-09-02 17:27:51.4460 INFO CompanyController instantiated. 
+2024-09-02 17:27:51.4785 INFO GetAll method called. 
+2024-09-02 17:27:51.5252 INFO GetAll method executed successfully. 
+2024-09-02 17:27:56.4476 INFO CompanyController instantiated. 
+2024-09-02 17:27:56.5488 INFO Post method called. 
+2024-09-02 17:27:56.6377 INFO Company added successfully. 
+2024-09-02 17:28:00.0137 INFO CompanyController instantiated. 
+2024-09-02 17:28:00.0137 INFO Post method called. 
+2024-09-02 17:28:00.0309 WARN Company with SiteId Global123 and CompanyCode 7 already exists. 
+2024-09-02 17:28:05.2023 INFO CompanyController instantiated. 
+2024-09-02 17:28:05.2193 INFO Put method called with companyCode: 7 
+2024-09-02 17:28:05.2602 INFO Company with code 7 updated successfully. 
+2024-09-02 17:28:11.4669 INFO Adding new employee: "John Doe" 
+2024-09-02 17:28:11.4989 INFO Successfully added employee: "John Doe" 
+2024-09-02 17:28:13.7702 WARN Employee with code "E12345" already exists. 
+2024-09-02 17:28:21.7760 INFO Fetching employee with code: "E12345" 
+2024-09-02 17:28:21.8096 INFO Fetched employee with code: "E12345" 
+2024-09-02 17:28:25.8684 INFO Updating employee with code: "E12345" 
+2024-09-02 17:28:25.8789 WARN Update request contains different Employee Code, which is not allowed. 
+2024-09-02 17:28:40.9112 INFO Updating employee with code: "E12345" 
+2024-09-02 17:28:40.9263 WARN Update request contains different Employee Code, which is not allowed. 
+2024-09-02 17:30:25.0720 INFO Adding new employee: "John Doe" 
+2024-09-02 17:30:25.1753 INFO Successfully added employee: "John Doe" 
+2024-09-02 17:30:26.2963 WARN Employee with code "E12345" already exists. 
+2024-09-02 17:30:32.3225 INFO Updating employee with code: "E12345" 
+2024-09-02 17:30:32.3714 INFO Successfully updated employee with code: "E12345" 
+2024-09-02 17:30:40.1466 INFO Updating employee with code: "E12345" 
+2024-09-02 17:30:40.2011 INFO Successfully updated employee with code: "E12345" 
+2024-09-02 17:30:41.3251 INFO Updating employee with code: "E12345" 
+2024-09-02 17:30:41.3768 INFO Successfully updated employee with code: "E12345" 
+2024-09-02 17:30:44.7261 INFO Deleting employee with code: "E12345" 
+2024-09-02 17:30:44.7426 INFO Successfully deleted employee with code: "E12345" 

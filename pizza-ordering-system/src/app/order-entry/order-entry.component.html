@@ -1,0 +1,74 @@
+<div class="order-entry">
+    <h2>Order Entry</h2>
+  
+    <div class="order-form">
+      <div class="toppings">
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2">Topping</th>
+              <th [attr.colspan]="pizzaSizes.length">Pizza Size</th>
+            </tr>
+            <tr>
+              <th *ngFor="let size of pizzaSizes">
+                {{ getDisplaySize(size) }} ({{ SIZES[size] | currency }})
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Veg Toppings Section -->
+            <tr>
+              <td [attr.colspan]="pizzaSizes.length + 1">Veg Toppings</td>
+            </tr>
+            <tr *ngFor="let topping of toppings" [hidden]="topping.type !== 'veg'">
+              <td>{{ topping.name }} ({{ topping.price | currency }})</td>
+              <td *ngFor="let size of pizzaSizes">
+                <input type="checkbox" [(ngModel)]="selectionState[topping.name][size]" (change)="calculatePrice()" />
+              </td>
+            </tr>
+  
+            <!-- Non-Veg Toppings Section -->
+            <tr>
+              <td [attr.colspan]="pizzaSizes.length + 1">Non-Veg Toppings</td>
+            </tr>
+            <tr *ngFor="let topping of toppings" [hidden]="topping.type !== 'non-veg'">
+              <td>{{ topping.name }} ({{ topping.price | currency }})</td>
+              <td *ngFor="let size of pizzaSizes">
+                <input type="checkbox" [(ngModel)]="selectionState[topping.name][size]" (change)="calculatePrice()" />
+              </td>
+            </tr>
+  
+            <!-- Total Row Header -->
+            <tr>
+              <td [attr.colspan]="pizzaSizes.length + 1">Total</td>
+            </tr>
+  
+            <!-- Offer Row -->
+            <tr>
+              <td><strong>Offer</strong></td>
+              <td *ngFor="let size of pizzaSizes">
+                {{ appliedOffers[size] }}
+              </td>
+            </tr>
+  
+            <!-- Price and Offer Details -->
+            <tr>
+              <td><strong>Price Details</strong></td>
+              <td *ngFor="let size of pizzaSizes">
+                <div>
+                  <!-- Display original price only if an offer is applied -->
+                  <span *ngIf="appliedOffers[size]">
+                    <s>{{ originalPrices[size] | currency }}</s>
+                    <br />
+                  </span>
+                  <!-- Always display the final price -->
+                  <span>{{ finalPrices[size] | currency }}</span>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  
